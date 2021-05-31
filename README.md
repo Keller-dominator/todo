@@ -1,7 +1,13 @@
 # todo
-My todo list in node.js (express) and mongoDB.
+Мій todo list в node.js (express) і mongoDB.
 
 Want to implement basic authentication. Later authentication using facebook/github/google oauth. And with that implemented even try to implement my own oauth2 authentication.
+
+На Todolist можна зберігати списки справ. Список має ім'я, він може містити перелік завдань, які об'єднані, наприклад, спільною метою або проектом. Кожне завдання або список містять не тільки назва, а й короткий опис, за допомогою якого можна, наприклад, уточнити призначення завдання або списку, нагадати про особливо важливих моментах.
+
+Завдання в списку можна переміщати просто за допомогою миші - перетягуючи завдання в потрібне місце списку, можна таким чином перебудовувати список так, як зручно користувачеві. Окремі пункти списку можна редагувати, встановлюючи, наприклад, дату завершення завдання.
+
+Ще одна корисна функція сервісу - спільний доступ до списку. Встановити її можна в розділі «Загальний доступ», просто позначивши відповідний значок. В результаті за спеціальним коротким адресою всі бажаючі зможуть переглядати список.
 
 Tasks can have deadlines, priority, predicted time to accomplish, defined project, real time to accomplish, done/in progress/blocked/not started. Task can have tags and special requirements. 
 
